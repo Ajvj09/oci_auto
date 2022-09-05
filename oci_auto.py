@@ -35,8 +35,8 @@ ssh_key = "ssh-rsa ************************"
 # Get chat_id: https://api.telegram.org/bot<yourtoken>/getUpdates   if not get chat_id, chat some thing to the bot and retry
 # Start a chat with your bot, add [@get_id_bot](https://telegram.me/get_id_bot), and issue the `/my_id` command
 session = requests.Session()
-bot_api = '*******'
-chat_id = '*******'
+bot_api = '5354143266:AAHOqcCiW7aGKt0T2IB4vtdbnN_9aNROMBE'
+chat_id = '1035678125'
 ######################################################################################################################
 
 def telegram_notify(session, bot_api, chat_id, message):
